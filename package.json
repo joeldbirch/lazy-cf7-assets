@@ -1,0 +1,33 @@
+{
+  "name": "lazy-cf7-assets",
+  "version": "0.1.0",
+  "description": "Lazyloads Contact Form 7’s JavaScript only if there is a form on the page. Use on a WordPress website with Contact Form 7 plugin active and its JavaScript manually dequeued.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeldbirch/lazy-cf7-assets.git"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "contact-form-7",
+    "wordpress"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "author": {
+    "name": "Joel Birch",
+    "email": "joeldbirch@gmail.com"
+  },
+  "license": "MIT",
+  "babel": {
+    "presets": ["env"]
+  },
+  "dependencies": {
+    "scriptjs": "^2.5.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
