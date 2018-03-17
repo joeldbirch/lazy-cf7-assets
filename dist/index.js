@@ -16,7 +16,7 @@ exports.default = {
 
     window._wpcf7 = null;
     var defaultAssets = {
-      foundForms: document.querySelector('.wpcf7-form'),
+      foundForm: document.querySelector('.wpcf7-form'),
       gifPath: '/wp-content/plugins/contact-form-7/images/ajax-loader.gif',
       jqueryPath: '/wp-includes/js/jquery/jquery.js',
       jqueryFormPath: '/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js',
@@ -41,10 +41,10 @@ exports.default = {
     });
   },
   badBrowser: function badBrowser() {
-    return !('querySelector' in document && document.addEventListener);
+    return !('querySelectorAll' in document && document.addEventListener);
   },
   allAssetsFound: function allAssetsFound() {
-    return Object.values().every(function (asset) {
+    return Object.values(this.assets).every(function (asset) {
       return assets !== null;
     });
   },
