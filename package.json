@@ -1,7 +1,7 @@
 {
   "name": "lazy-cf7-assets",
   "version": "0.1.0",
-  "description": "Lazyloads Contact Form 7’s JavaScript only if there is a form on the page. Use on a WordPress website with Contact Form 7 plugin active and its JavaScript manually dequeued.",
+  "description": "Lazyloads Contact Form 7's JavaScript only if there is a form on the page. Use on a WordPress website with Contact Form 7 plugin active and its JavaScript manually dequeued.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joeldbirch/lazy-cf7-assets.git"
