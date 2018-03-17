@@ -45,7 +45,7 @@ exports.default = {
   },
   allAssetsFound: function allAssetsFound() {
     return Object.values(this.assets).every(function (asset) {
-      return assets !== null;
+      return asset !== null;
     });
   },
   attachSubmitHandlers: function attachSubmitHandlers() {

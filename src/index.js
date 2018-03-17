@@ -34,7 +34,7 @@ export default {
   },
 
   allAssetsFound () {
-    return Object.values(this.assets).every(asset => assets !== null)
+    return Object.values(this.assets).every(asset => asset !== null)
   },
 
   attachSubmitHandlers () {
